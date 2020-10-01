@@ -1,5 +1,7 @@
 cc_library_static {
     name: "rnnoise_rnn_vad",
+    // vendor needed for libpreprocessing effects.
+    vendor: true,
     srcs: [
         "src/rnn_vad_weights.cc",
     ],
@@ -7,6 +9,5 @@ cc_library_static {
         "src",
     ],
     host_supported: true,
-    device_supported: false,
     visibility: ["//external/webrtc:__subpackages__"],
 }
