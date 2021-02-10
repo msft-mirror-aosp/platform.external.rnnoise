@@ -9,11 +9,11 @@ third_party {
     type: GIT
     value: "https://github.com/xiph/rnnoise.git"
   }
-  version: "125d8a56e0049728c86c9a575dab348fc9523e96"
+  version: "1cbdbcf1283499bbb2230a6b0f126eb9b236defd"
   license_type: NOTICE
   last_upgrade_date {
     year: 2021
-    month: 1
-    day: 18
+    month: 2
+    day: 9
   }
 }
